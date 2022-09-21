@@ -1,0 +1,29 @@
+.main
+   display: flex
+   justify-content: space-around
+   z-index: 2
+   position: relative
+   background: url("../img/main/tech.jpg") no-repeat center
+   background-size: cover
+   height: 100vh
+   padding: 75px 0px
+   margin-bottom: 25px
+   &-img 
+      margin-left: 20px
+      vertical-align: middle
+      & img
+         max-width: 100%
+   &-about
+      color: #fff
+   &-overlay
+      position: absolute
+      top: 0
+      right: 0
+      background: rgb(2,0,36)
+      background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,68,121,1) 35%, rgba(0,212,255,1) 100%)
+      z-index: -1
+      opacity: 0.8
+      height: 100%
+      width: 100%
+      
+      
